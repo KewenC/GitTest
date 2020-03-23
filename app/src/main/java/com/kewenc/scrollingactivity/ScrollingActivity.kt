@@ -14,6 +14,7 @@ class ScrollingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scrolling)
         Log.e("TAGF", "GG")
+        Log.e("TAGF","writing in the develop");
         setSupportActionBar(toolbar)
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
